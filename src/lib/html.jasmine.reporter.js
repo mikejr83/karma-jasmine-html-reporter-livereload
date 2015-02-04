@@ -62,9 +62,6 @@ jasmineRequire.HtmlReporter = function(j$) {
                 )
             );
             getContainer().appendChild(htmlReporterMain);
-            // var src = "http://localhost:35729/livereload.js";
-            // livereloadHtml = createDom("script", {src: src});
-            // getContainer().appendChild(livereloadHtml);
 
             symbols = find(".symbol-summary");
         };
